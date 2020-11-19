@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+html,
+body {
+	min-width:400px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-size: 15px;
+	font: inherit;
+	color:rgba(245, 245, 245, 1);
+	vertical-align: baseline;
+	background: #000;
+	/* background:radial-gradient(#203248, #1d1d1c); */
+}
+
+h1,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	resize: none;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	font-family: inherit;
+	font-size: 90%;
+	border: none;
+	margin: 0;
+	cursor: pointer;
+	color:rgba(245, 245, 245, 1);
+	background-color: transparent;
+}
+button:focus,
+input:focus{
+	outline: none;
+}
+
+button > span{
+	display: inline-block;
+}
+
+span{
+	display: block;
+}
+
+a, input{
+	color:rgba(255, 255, 255, .6);
+}
+
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin:0; padding:0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
